@@ -163,7 +163,7 @@ int main() {
 using namespace std;
 
 int main() {
-         ok, ok1;
+    bool ok, ok1;
     ok = (5 > 4 && 6 > 7); // && - and
     ok1 = (5 > 4 || 6 > 7); // || - or
     cout << ok << " " << ok1 << endl;
@@ -210,3 +210,34 @@ int main() {
     return 0;
 }
 ------------------------------------
+PL Lecture 2 Notes:
+1. lab works
+2. data type sizeof
+3. (++, --, +=, -=, *=, /=, %=)
+4. comparison operators (==, !=, >, <, >=, <=)
+5. printf with floating numbers (M_PI) 
+
+6. math functions - pow, round, ceil, floor, sqrt
+7. bit manipulation, or, xor, and, >>, <<, |=, &=, ^=
+8. 2^n example 1 << n
+9. set 1 for i-th bit of number: A |= (1<<i);
+10. invert i-th bit of number: A ^= (1<<i);
+11. identify i-th bit of number: int b = (A>>i)&1;
+
+12. if else conditions. If —> return 0, absolute value of number, minimum of three numbers, triangle problem (&&, and)
+13. even odd example
+14. find grade from points example
+
+15. loop operators: for, while, do while
+16. even numbers / odd numbers till 100
+17. infinity loop
+18. all numbers which divisible by 3 in range (a, b)
+19. count number of dividers of N
+20. prime number
+
+21. fibonacci sequence (0, 1, 1, 2, 3, 5, …)
+22. factorial
+23. infinite loop (for (;;)) break, continue
+24. while loop statement (power of 2, count of digits)
+25. sum of numbers (cin reads numbers in the loop) freopen
+26. string: number of words 
