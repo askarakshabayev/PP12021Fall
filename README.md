@@ -242,6 +242,7 @@ PL Lecture 2 Notes:
 25. sum of numbers (cin reads numbers in the loop) freopen
 26. string: number of words 
 
+<<<<<<< HEAD
 PL Lecture notes 3
 1. From previous lectures
     Loop samples
@@ -276,6 +277,91 @@ PL Lecture notes 3
         3. convert all letter to UPPER
 
 PP1 Week9 notes:
+=======
+Lecture 4:
+Nested loop
+    2.1. Multiplication table
+    2.2.  1 1 1 1
+          2 2 2 2
+          3 3 3 3
+
+    2.3   1
+          1 2 
+          1 2 3 
+          1 2 3 4
+    2.4 Sorting array using nested loop 
+    2.5 simple sorting numbers between 0-9 using array 
+    
+3. 2D array (matrix)
+    3.1 input, output
+    3.2 table of multiplication
+    3.3 max element in matrix
+    3.4   
+    1 0 0 0
+    2 1 0 0
+    2 2 1 0
+    2 2 2 1
+    3.5
+    0  0  0  0  0  0  0  0  0  0
+    0  1  2  3  4  5  6  7  8  9
+    0  2  4  6  8 10 12 14 16 18
+    0  3  6  9 12 15 18 21 24 27
+    3.6
+    0 0 0 1
+    0 0 1 2
+    0 1 2 2
+    1 2 2 2
+    3.7
+    Дано число n и квадратный массив int A[n][n]. Проверьте, является ли массив симметричным относительно главной диагонали. Программа должна выводить слово yes для симметричного массива и слово no для несимметричного. Пример
+        Вход                   Выход
+        3                     yes
+        0 1 2
+        1 2 3
+        2 3 4
+    3.8
+    Состязания-1. В метании молота состязается n спортcменов. Каждый из них сделал m бросков. Победителем считается тот спортсмен, у которого сумма результатов по всем броскам максимальна.
+Если перенумеровать спортсменов числами от 0 до n-1, а попытки каждого из них – от 0 до m-1, то на вход программа получает массив int A[n][m], состоящий из неотрицательных чисел. Программа должна определить максимальную сумму чисел в одной строке и вывести на экран эту сумму и номер строки, для которой достигается эта сумма. Если таких строк несколько, то выводится номер наименьшей из них. Пример для n=4 спортсменов и m=3 попыток:
+
+        Вход                   Выход
+        4 3                    19
+        5 6 7                  1
+        6 6 7
+        7 6 6
+        4 3 5
+
+
+
+
+
+Lecture 5 Notes
+1. What is string
+2. Initialize string (with constructor)
+3. size & length
+4. for loop get each element
+5. adding chars to string
+6. s.begin(), s.end(), s.front() - s[0], s.back() - s[s.size() - 1]
+7. Examples
+    1. compare two strings from input show YES if they are equal NO otherwise
+    2. given two string show YES if second is found in first one NO otherwise
+    3. find function
+        string::npos
+    4. getline(cin, s) — read all line
+    5. find(other string, starting index) — count how many times occurs
+    6. Example for substr
+    7. print all doubled chars, which are located in sequence
+    8. erase(start_index, length)
+    9. string reverse 
+    10. string sort
+    11. palindrom (yes, no)
+        1. reverse
+        2. left and right pointers
+    12. string append(start_index, value)
+        1. insert
+        2. math +
+    13. stringstream
+
+Lecture 6 Notes:
+>>>>>>> b5913d6edbaf7ce112d173552d770ec15e43d12c
 1. Understanding function (stack of functions)
 2. sum from 1..N
 3. Factorial
@@ -285,4 +371,8 @@ PP1 Week9 notes:
 7. Fib numbers 
 8. Fib with memory
 9. Hanoi tower
+<<<<<<< HEAD
 10. Chess problem
+=======
+10. Chess problem
+>>>>>>> b5913d6edbaf7ce112d173552d770ec15e43d12c
