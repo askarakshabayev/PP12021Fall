@@ -242,7 +242,6 @@ PL Lecture 2 Notes:
 25. sum of numbers (cin reads numbers in the loop) freopen
 26. string: number of words 
 
-<<<<<<< HEAD
 PL Lecture notes 3
 1. From previous lectures
     Loop samples
@@ -361,7 +360,6 @@ Lecture 5 Notes
     13. stringstream
 
 Lecture 6 Notes:
->>>>>>> b5913d6edbaf7ce112d173552d770ec15e43d12c
 1. Understanding function (stack of functions)
 2. sum from 1..N
 3. Factorial
@@ -371,8 +369,35 @@ Lecture 6 Notes:
 7. Fib numbers 
 8. Fib with memory
 9. Hanoi tower
-<<<<<<< HEAD
 10. Chess problem
-=======
-10. Chess problem
->>>>>>> b5913d6edbaf7ce112d173552d770ec15e43d12c
+
+PL Lecture 10 Notes:
+1. STL: algorithm, containers, iterators
+2. Vector (vector declaration) vector<int> a; vector<int> b(50, 1);
+3. size, push_back, pop_back
+    3.1. Create vector, push elements and print
+    3.2. Example of pop from vector
+4. insert, erase, clear, sort, pair, vector of pairs
+5. Example of array of vector, vector of vector
+
+6. set (size, insert, erase, find -> count)
+7. begin(), end(), rbegin(), rend()
+8. iterators
+9. set<int> a(b.begin(), b.end()) 
+10. set<int> a(b, b + n)   
+
+PL Lecture 11 Notes:
+0. sort(a.rbegin(), a.rend())
+1. map (first, second, iterate map)
+2. Count of unique words
+3. map<string, pair<string, string> > example (ID, name, surname)
+
+4. stack simple example, bracket problem
+5. queue simple example, problem from a to b using operations (x+1, x*2)
+5.1 given matrix, find minimum steps to all cells
+6. sort - using additional function third param
+
+7. multiset
+7.1 pair<multiset<int> :: iterator, multiset<int> :: iterator> r = ms.equal_range(1); 
+8. multimap
+8.1 pair<m_it, m_it> res = mm.equal_range(str);
