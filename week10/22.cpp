@@ -21,6 +21,10 @@ int main() {
         a.push_back(s);
     }
     sort(a.begin(), a.end(), f);
+    // for (int i = 0; i < n; i++)
+    //     for (int j = i + 1; j < n; j++)
+    //         if (f(a[i], a[j])) // a[i] > a[j]
+    //             swap(a[i], a[j]);
 
     for (int i = 0; i < n; i++)
         cout << a[i] << endl;
