@@ -1,9 +1,5 @@
-5
-hello
-lleoh
-abc
-bca
-aaa
-
-a abc ehlo
-
+4
+20BD01 Aslan Askarbekov
+20BD02 Birzhan Kasenov
+20BD03 Askar Aitzhan
+20BD04 Azizkhan Almakhan
